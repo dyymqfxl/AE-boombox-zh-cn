@@ -1,0 +1,19 @@
+# Never commit the original extension, audio library or installed runtime copies.
+cep.js
+cep.zh-cn.js
+aeft.jsxbin
+ppro.jsxbin
+node_modules/
+boombox-zh-cn-backup-v1/
+sounds/
+db/
+cache/
+*.wav
+*.mp3
+*.aep
+*.aepx
+*.log
+*.tmp
+.release-validation/
+Thumbs.db
+.DS_Store

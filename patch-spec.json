@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "sourceSha256": "72c0d065a99c880a40d6cbe503f029f568ce5863aa5ea03353b58b69a529017f",
+  "edits": [
+    {
+      "from": "function Ta(s,o){if(null===o)return s;",
+      "to": "function Ta(s,o){if(null===o)return s;if(window.BoomboxZH)o=window.BoomboxZH.prepare(o);",
+      "count": 1
+    },
+    {
+      "from": "F?\" HOME\":null",
+      "to": "F?\" 首页\":null",
+      "count": 1
+    },
+    {
+      "from": "F?\" USER\":null",
+      "to": "F?\" 用户\":null",
+      "count": 1
+    },
+    {
+      "from": "F?\" BROWSE\":null",
+      "to": "F?\" 浏览\":null",
+      "count": 1
+    },
+    {
+      "from": "F?\" FLAGS\":null",
+      "to": "F?\" 收藏\":null",
+      "count": 1
+    },
+    {
+      "from": "F?\" RECENT\":null",
+      "to": "F?\" 最近\":null",
+      "count": 1
+    },
+    {
+      "from": "},\"SOUNDS\"),",
+      "to": "},\"音效\"),",
+      "count": 1
+    },
+    {
+      "from": "\"packs\"===l?\"CATEGORIES\":1===s.length?d[s[0]].title:0===s.length?\"ALL PACKS\":\"MULTI PACK\"",
+      "to": "\"packs\"===l?\"分类\":1===s.length?d[s[0]].title:0===s.length?\"全部音效包\":\"多个音效包\"",
+      "count": 1
+    },
+    {
+      "from": "},\"ALL\"):null",
+      "to": "},\"全部\"):null",
+      "count": 1
+    },
+    {
+      "from": "},\"Repeat search in all sounds\"):null",
+      "to": "},\"在全部音效中重新搜索\"):null",
+      "count": 1
+    },
+    {
+      "from": "'No results found for \"'",
+      "to": "'未找到匹配音效：\"'",
+      "count": 2
+    },
+    {
+      "from": "'\" in selected packs and categories.'",
+      "to": "'\"（当前音效包和分类）'",
+      "count": 1
+    },
+    {
+      "from": "s.query.toLowerCase().split(\",\")",
+      "to": "s.query.toLowerCase().split(/[,，]/)",
+      "count": 1
+    },
+    {
+      "from": "a.query.toLowerCase().split(\",\")",
+      "to": "a.query.toLowerCase().split(/[,，]/)",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/* Keep Latin font; use a Windows CJK fallback for Chinese glyphs. */
+body, input, button, select, textarea {
+  font-family: m_1pmedium, "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", sans-serif !important;
+}
+#left-list li, #right-list li { letter-spacing: normal !important; }
