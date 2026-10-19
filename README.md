@@ -41,9 +41,6 @@ C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\com.mtmograph.boombox
 # 首次安装
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\patch.ps1 -Mode Install -ExtensionPath "你的扩展目录"
 
-# 从 0.1 / 0.2 升级
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\update.ps1 -ExtensionPath "你的扩展目录"
-
 # 卸载
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\patch.ps1 -Mode Uninstall -ExtensionPath "你的扩展目录"
 ```
