@@ -2,6 +2,8 @@
 
 适用于 **Windows / Mt. Mograph Boombox v27**，需自行安装原插件及音效库。
 
+![Boombox 中文补丁效果预览](preview.png)
+
 ## 功能
 
 - 3950 条内置音效名称、44 个分类中英双语显示，主要导航中文化。
